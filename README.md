@@ -3,6 +3,7 @@
 I scraped all [r/jokes](https://www.reddit.com/r/Jokes/) from 2017 to 2020 with more than 5 upvotes with https://pushshift.io/ and combined them with the existing data set from https://github.com/taivop/joke-dataset.
 
 Then, I loaded GPT2 with huggingface's transformers library and fine-tuned it on the jokes with pytorch.
+The notebook is adapted from this [blog post](https://medium.com/swlh/fine-tuning-gpt-2-for-magic-the-gathering-flavour-text-generation-3bafd0f9bb93).
 
 ### Examples
 
@@ -22,6 +23,7 @@ So I just gave her 3 different. Guess I should try Tide Pods or something...
 
 ```
 Wife's: It feels like you are having a heart attack
+
 Husband: Oh well.
 
 Wife's: (unfazed) I have a headache...
